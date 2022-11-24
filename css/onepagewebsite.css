@@ -1,0 +1,220 @@
+.jumbotron{
+	background-color:#1e3146;
+	padding:5px;
+	margin:0px;
+
+}
+
+
+
+header{
+	text-align: center;
+
+}
+
+body {
+
+	margin:0;
+	padding:0; 
+	background-color:#E6EEF5;
+;
+	font-family:Roboto;
+
+}
+h1{
+	font-family:Nunito;
+	font-size:50px;
+}
+h2 {
+
+	font-size:40px;
+
+}
+h3 {
+	font-size:30px;
+}
+p{
+	font-size:100%;
+}
+
+
+
+
+
+
+
+/* menu bar styling */
+nav ul{
+	list-style:none;
+	background-color: :#FFFFFF;
+	text-align:center;
+
+
+}
+
+nav ul li{
+	font-family: 'Roboto Mono', monospace;
+	/*background-color: #E1ECDF;*/
+	
+
+	font-size: 100%;
+	/*line-height: 50px;*/
+	/*border-bottom: 1px solid white;*/
+	font-weight: 900;
+}
+
+
+
+nav a{
+	text-decoration: none;
+	color: #FFFFFF;
+	display: block;
+
+}
+
+nav a:hover{
+	/*background-color: #5C5D8D;*/
+
+	color: #FFFFFF;
+	font-size: 100%;
+	border-bottom:1px;
+	
+
+
+	/*text-decoration: underline*/
+
+}
+
+
+
+
+/* reponsive for large screen */
+@media screen and (min-width: 768px){
+
+	nav li{
+		/* width:250px;
+	
+		height: 50px;
+		border: 1px solid white;
+	
+		
+		width:15%;*/
+		padding: 20px;
+		line-height: 50px;
+		display: inline-block;            /* displaying menus in a row*/
+
+		}
+	.yogafit{
+	  padding:100px;
+
+	  background-color: #E6EEF5;
+	  background-image: 
+	  linear-gradient(to right, rgba(230, 238, 245, 1) 30%,rgba(0,0,0,0)), url("../img/warrior2.jpg");
+ 	  background-size:80%;
+ 	  background-position: top right;
+ 	  background-repeat: no-repeat;
+
+	}
+ 	.aboutme{
+	padding:100px;
+	background-image: 
+	linear-gradient(to left, rgba(230, 238, 245, 1)30% ,rgba(0,0,0,0)), url("../img/blackwhite.jpg");
+ 	background-position: top left;
+  	background-repeat: no-repeat;
+ 	background-size: 80%;
+	}
+ 	.f2f{
+	  padding:100px;
+	  background-color: #E6EEF5;
+	  background-image: 
+	  linear-gradient(to right, rgba(230, 238, 245, 1) 60%,rgba(0,0,0,0)), url("../img/strength.jpg");
+ 	  background-size:contain;
+ 	  background-position: top right;
+ 	  background-repeat: no-repeat;
+	}
+	.credent{
+	padding:100px;
+	background-image: 
+	linear-gradient(to left, rgba(230, 238, 245, 1)30% ,rgba(0,0,0,0)), url("../img/profile.jpg");
+ 	background-position: top left;
+  	background-repeat: no-repeat;
+ 	background-size: 80%;
+	}
+
+}
+
+
+@media only screen and (max-width: 767px){
+.yogafit{
+		border-style:none;
+	  padding-top:400px;
+	  padding-bottom:50px;
+
+	  background-image: 
+	  linear-gradient(to top, rgba(230, 238, 245, 1) 50%,rgba(0,0,0,0)), url("../img/warrior2.jpg");
+	  background-position: top;
+	  background-size: cover;
+	  background-repeat: no-repeat;
+ 	 
+
+}
+
+.aboutme{
+	padding-top:400px;
+	padding-bottom:50px;
+
+	background-image: 
+	linear-gradient(to top, rgba(230, 238, 245, 1) 20%,rgba(0,0,0,0)), url("../img/blackwhite.jpg");
+ 	background-position: top;
+  	background-repeat: no-repeat;
+ 	background-size: contain;
+
+}
+
+.f2f{
+	  padding-top:300px;
+	  padding-bottom:50px;
+
+	  background-image: 
+	  linear-gradient(to top, rgba(230, 238, 245, 1) 60%,rgba(0,0,0,0)), url("../img/strength.jpg");
+	  background-position: center top;
+		background-size: contain;
+	  background-repeat: no-repeat;
+}
+.credent{
+	padding-top:400px;
+	padding-bottom:50px;
+
+	background-image: 
+	linear-gradient(to top, rgba(230, 238, 245, 1) 20%,rgba(0,0,0,0)), url("../img/profile.jpg");
+ 	background-position: top;
+  	background-repeat: no-repeat;
+ 	background-size: contain;
+}
+}
+
+
+
+aside {
+	text:right;
+}
+
+
+
+
+footer {
+	text-align:center;
+	font-weight:500;
+	color:#FFFFFF;
+	background-color:#1e3146;
+	font-family: 'Roboto Mono', monospace;
+
+}
+
+footer a {
+	color:#939BBD;
+}
+
+
+
+
